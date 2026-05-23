@@ -9,10 +9,9 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp:prepend(lazypath)
 
--- Add relative line numbers
-vim.wo.relativenumber = true
+-- Add the path to our lazy install to the run time config
+vim.opt.rtp:prepend(lazypath)
 
 -- Import my extensions etc
 require("lazy").setup({
