@@ -1,6 +1,13 @@
 # D6's NVIM Config
 I'm trying to become a VIM person, and easing myself in by progressively building a neovim config. This file has my notes-to-self. 
 
+# New PC Install
+```bash
+cd ~/.config
+git clone git@github.com:DavidASix/nvim-config.git
+nvim
+```
+
 ## Loading Order
 
 
